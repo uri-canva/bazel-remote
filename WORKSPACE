@@ -208,6 +208,7 @@ http_archive(
 
 go_repository(
     name = "com_github_bazelbuild_remote_apis",
+    build_file_generation = "off",
     importpath = "github.com/bazelbuild/remote-apis",
     sum = "h1:OPH+hf+ICw8WEp2CV2ncfdyWPC30Cmw8b5NKun0n5IQ=",
     version = "v0.0.0-20191119143007-b5123b1bb285",
